@@ -31,11 +31,14 @@ Through EDA and Data Visualization(graphs are included in the repo), following i
     2. Similarly, most users rent bike around 8 A.M. and 7 P.M. during working days & evening hours in non working days.
     3. Users are seen renting more in Fall season followed by Spring season. The least count is during Spring Season. This is true as we already know the relation of temperature and count.
     4. Count, Casual and Registered user count are highly correlated. Similarly, temp and atemp are highly correlated. Hence these features need to be removed for better accuracy.
+    5. Through Feature Engineering, date time was converted to hour, day and week of the day features.
 
 ### Model result:
-    1. Linear Model:
-          RMSE: 109.6229         R2: 0.6144
-    2. Random Forest:
-          RMSE: 69.8340       R2: 0.8435
-    3. Random Forest tuned using Grid Search:
+Models were built on 13 features and 1 label feature.
+
+#####       1. Linear Model:
+          RMSE: 109.6229            R2: 0.6144
+#####       2. Random Forest:
+          RMSE: 69.8340             R2: 0.8435
+#####       3. Random Forest tuned using Grid Search:
           RMSE: 35.9374             R2: 0.9586
